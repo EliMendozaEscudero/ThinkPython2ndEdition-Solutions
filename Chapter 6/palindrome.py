@@ -28,7 +28,6 @@ if __name__== "__main__":
     while(True):
         word = input("Type a word to check whether or not it is palindrome or just press enter to exit:\n")
         if len(word) > 0:
-            print(word + (" is palindrome." if is_palindrome(word) else " is not palindrome."))
-           
+            print(word + (" is palindrome." if is_palindrome(word) else " is not palindrome.")) 
         else:
             break
