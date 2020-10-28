@@ -1,4 +1,5 @@
 def ack(m,n):
+    """It evaluates the Ackermann function"""
     if m == 0:
         return n + 1
     elif m > 0 and n == 0:
