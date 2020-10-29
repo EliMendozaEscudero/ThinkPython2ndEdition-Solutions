@@ -4,9 +4,11 @@ def first(word):
     return word[0]
 
 def last(word):
+    """It returns the last character of a string"""
     return word[-1]
 
 def midle(word):
+    """It returns the string between the last and the first character of a stirng"""
     return word[1:-1]
 
 def is_palindrome(word):
