@@ -1,5 +1,6 @@
 #Exercise 6-3 from "Think python 2e"
 def first(word):
+    """It returns the first character of a string"""
     return word[0]
 
 def last(word):
