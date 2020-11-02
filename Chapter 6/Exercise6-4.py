@@ -1,4 +1,5 @@
 def is_power(a,b): 
+    """Returns true if a is power of b and return False otherwise"""
     if b==1 and a!=b: 
         return False
     elif a%b==0 and is_power(a/b,b) or a==b:
