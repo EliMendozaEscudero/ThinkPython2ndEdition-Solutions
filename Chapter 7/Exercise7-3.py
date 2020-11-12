@@ -1,6 +1,7 @@
 import math 
 
 def estimate_pi():
+    """It returns an estimation of pi"""
     sum = 0
     subsum = 1
     k =0
